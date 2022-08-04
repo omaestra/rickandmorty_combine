@@ -1,0 +1,16 @@
+PODS:
+  - Apptimize (3.5.10)
+
+DEPENDENCIES:
+  - Apptimize
+
+SPEC REPOS:
+  trunk:
+    - Apptimize
+
+SPEC CHECKSUMS:
+  Apptimize: 8efa27cb1eebc15a67131cde220ee9b016f1f742
+
+PODFILE CHECKSUM: 9f820f64c14d9b49d001b17e292cc28d02837d68
+
+COCOAPODS: 1.10.0

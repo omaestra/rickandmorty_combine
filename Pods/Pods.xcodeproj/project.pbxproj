@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		48FB4C9EA030C922673F4A82F735D685 /* Apptimize */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 68E673E5479DC8975B399BB37EA807FE /* Build configuration list for PBXAggregateTarget "Apptimize" */;
+			buildPhases = (
+				5603D3FB162D6A8D96B5F2A23EF8A2CD /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = Apptimize;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		06B789BD142AECFA482DB1ABB786E52A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		70ED3B0C40B00C14419C337F7BEDC16B /* Pods-RickAndMorty-Combine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE199039FBDF77E15C60AC23326687E /* Pods-RickAndMorty-Combine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC9FC0763A3587FC02F75538C2AF2F07 /* Pods-RickAndMorty-Combine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0932EC38077746429B35FC2D9545D8 /* Pods-RickAndMorty-Combine-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91580D6C4F0E573554E444F8890C7775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48FB4C9EA030C922673F4A82F735D685;
+			remoteInfo = Apptimize;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E0932EC38077746429B35FC2D9545D8 /* Pods-RickAndMorty-Combine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RickAndMorty-Combine-dummy.m"; sourceTree = "<group>"; };
+		12015D43F8EAF0D6C2D9426450019CB9 /* Pods-RickAndMorty-Combine-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RickAndMorty-Combine-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1FFB8ED32758B725ED56C91E51F0E15D /* Pods-RickAndMorty-Combine-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RickAndMorty-Combine-acknowledgements.plist"; sourceTree = "<group>"; };
+		314C85F0E1A32E14DC826FD549720FC1 /* Pods-RickAndMorty-Combine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RickAndMorty-Combine.release.xcconfig"; sourceTree = "<group>"; };
+		3B8B810257342120ABF9EE4A9C999D1C /* Apptimize.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Apptimize.debug.xcconfig; sourceTree = "<group>"; };
+		3E461BE0F00B1AFFE78DF37BED4F993A /* Pods-RickAndMorty-Combine-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RickAndMorty-Combine-Info.plist"; sourceTree = "<group>"; };
+		42AFA9D57129EACC646C00DFDDB2096A /* Pods-RickAndMorty-Combine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RickAndMorty-Combine.debug.xcconfig"; sourceTree = "<group>"; };
+		6B90F10F890FACB1EEBB2E84F11B34F9 /* Apptimize.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Apptimize.release.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7827B1F5316DD75325DDF9E642CAB221 /* Pods-RickAndMorty-Combine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RickAndMorty-Combine.modulemap"; sourceTree = "<group>"; };
+		7BF936621F59FC097B18BF24CB9A217E /* Pods-RickAndMorty-Combine-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RickAndMorty-Combine-frameworks.sh"; sourceTree = "<group>"; };
+		8C3325B9F82C7395F81285C3EE66EA9C /* Apptimize.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Apptimize.xcframework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1937684B4DE76BE066DF47476B6D12E /* Pods_RickAndMorty_Combine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RickAndMorty_Combine.framework; path = "Pods-RickAndMorty-Combine.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D815817067A2F01F429DC908161DEEEB /* Apptimize-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Apptimize-xcframeworks.sh"; sourceTree = "<group>"; };
+		EEE199039FBDF77E15C60AC23326687E /* Pods-RickAndMorty-Combine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RickAndMorty-Combine-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C13176AC9692061B74A3AE5FAC2B327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B789BD142AECFA482DB1ABB786E52A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		073DE52744DB39BCBA96090D4C09BA18 /* Pods-RickAndMorty-Combine */ = {
+			isa = PBXGroup;
+			children = (
+				7827B1F5316DD75325DDF9E642CAB221 /* Pods-RickAndMorty-Combine.modulemap */,
+				12015D43F8EAF0D6C2D9426450019CB9 /* Pods-RickAndMorty-Combine-acknowledgements.markdown */,
+				1FFB8ED32758B725ED56C91E51F0E15D /* Pods-RickAndMorty-Combine-acknowledgements.plist */,
+				0E0932EC38077746429B35FC2D9545D8 /* Pods-RickAndMorty-Combine-dummy.m */,
+				7BF936621F59FC097B18BF24CB9A217E /* Pods-RickAndMorty-Combine-frameworks.sh */,
+				3E461BE0F00B1AFFE78DF37BED4F993A /* Pods-RickAndMorty-Combine-Info.plist */,
+				EEE199039FBDF77E15C60AC23326687E /* Pods-RickAndMorty-Combine-umbrella.h */,
+				42AFA9D57129EACC646C00DFDDB2096A /* Pods-RickAndMorty-Combine.debug.xcconfig */,
+				314C85F0E1A32E14DC826FD549720FC1 /* Pods-RickAndMorty-Combine.release.xcconfig */,
+			);
+			name = "Pods-RickAndMorty-Combine";
+			path = "Target Support Files/Pods-RickAndMorty-Combine";
+			sourceTree = "<group>";
+		};
+		3070C658F516C7E65B4EC199A71EF576 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D815817067A2F01F429DC908161DEEEB /* Apptimize-xcframeworks.sh */,
+				3B8B810257342120ABF9EE4A9C999D1C /* Apptimize.debug.xcconfig */,
+				6B90F10F890FACB1EEBB2E84F11B34F9 /* Apptimize.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Apptimize";
+			sourceTree = "<group>";
+		};
+		4663334A08110CD1844B2EF9DD5E8238 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1937684B4DE76BE066DF47476B6D12E /* Pods_RickAndMorty_Combine.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		95532E5A1478C1742525873FCE74A385 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE48B9350B31DBD8C63BE2269ED9DBE9 /* Apptimize */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B05EB4AC4E9CCA255EA55FC1792625D3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				073DE52744DB39BCBA96090D4C09BA18 /* Pods-RickAndMorty-Combine */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B32E06AF53C9199CEA3E11DC98566E60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C3325B9F82C7395F81285C3EE66EA9C /* Apptimize.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				95532E5A1478C1742525873FCE74A385 /* Pods */,
+				4663334A08110CD1844B2EF9DD5E8238 /* Products */,
+				B05EB4AC4E9CCA255EA55FC1792625D3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE48B9350B31DBD8C63BE2269ED9DBE9 /* Apptimize */ = {
+			isa = PBXGroup;
+			children = (
+				B32E06AF53C9199CEA3E11DC98566E60 /* Frameworks */,
+				3070C658F516C7E65B4EC199A71EF576 /* Support Files */,
+			);
+			name = Apptimize;
+			path = Apptimize;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8EA1E3B97D56B2B7C6FFFEFB3994B8E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70ED3B0C40B00C14419C337F7BEDC16B /* Pods-RickAndMorty-Combine-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		72FCB429B3C00221F305F0DCF3CB374C /* Pods-RickAndMorty-Combine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 529894654A01491C6EF864A927603073 /* Build configuration list for PBXNativeTarget "Pods-RickAndMorty-Combine" */;
+			buildPhases = (
+				8EA1E3B97D56B2B7C6FFFEFB3994B8E8 /* Headers */,
+				3B079D6B7572C51A0242C08C89DD5A7B /* Sources */,
+				4C13176AC9692061B74A3AE5FAC2B327 /* Frameworks */,
+				5E7FADCDCC86CAEB02D0574C5818A634 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A85B378270EF5EA79B08795624A78151 /* PBXTargetDependency */,
+			);
+			name = "Pods-RickAndMorty-Combine";
+			productName = "Pods-RickAndMorty-Combine";
+			productReference = A1937684B4DE76BE066DF47476B6D12E /* Pods_RickAndMorty_Combine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4663334A08110CD1844B2EF9DD5E8238 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48FB4C9EA030C922673F4A82F735D685 /* Apptimize */,
+				72FCB429B3C00221F305F0DCF3CB374C /* Pods-RickAndMorty-Combine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E7FADCDCC86CAEB02D0574C5818A634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5603D3FB162D6A8D96B5F2A23EF8A2CD /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Apptimize/Apptimize-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Apptimize/Apptimize-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Apptimize/Apptimize-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B079D6B7572C51A0242C08C89DD5A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9FC0763A3587FC02F75538C2AF2F07 /* Pods-RickAndMorty-Combine-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A85B378270EF5EA79B08795624A78151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Apptimize;
+			target = 48FB4C9EA030C922673F4A82F735D685 /* Apptimize */;
+			targetProxy = 91580D6C4F0E573554E444F8890C7775 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E29CA12594D6967A6C36E0E6B7CA3DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42AFA9D57129EACC646C00DFDDB2096A /* Pods-RickAndMorty-Combine.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RickAndMorty-Combine/Pods-RickAndMorty-Combine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RickAndMorty-Combine/Pods-RickAndMorty-Combine.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		125C51B0F88E28C868DC90BD45E4E727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		405AF2A4176F5D60BD9F194E031A7A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 314C85F0E1A32E14DC826FD549720FC1 /* Pods-RickAndMorty-Combine.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RickAndMorty-Combine/Pods-RickAndMorty-Combine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RickAndMorty-Combine/Pods-RickAndMorty-Combine.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4DA3731E8A3AD97193599C933E701D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B8B810257342120ABF9EE4A9C999D1C /* Apptimize.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92A3E9AC052A7345115439021B218E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F0B1FBE543205E44D12B052346E706A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B90F10F890FACB1EEBB2E84F11B34F9 /* Apptimize.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125C51B0F88E28C868DC90BD45E4E727 /* Debug */,
+				92A3E9AC052A7345115439021B218E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		529894654A01491C6EF864A927603073 /* Build configuration list for PBXNativeTarget "Pods-RickAndMorty-Combine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E29CA12594D6967A6C36E0E6B7CA3DE /* Debug */,
+				405AF2A4176F5D60BD9F194E031A7A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68E673E5479DC8975B399BB37EA807FE /* Build configuration list for PBXAggregateTarget "Apptimize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DA3731E8A3AD97193599C933E701D16 /* Debug */,
+				F0B1FBE543205E44D12B052346E706A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
